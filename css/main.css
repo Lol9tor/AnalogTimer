@@ -1,0 +1,35 @@
+#buttons, #result  {
+	height: 90px;
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#start {
+	float: left;
+	background: url("img/start.jpg") ;
+	height: 84px;
+	width: 180px;	
+}
+
+#stop {
+	float: right;
+	background: url("img/pause.jpg") ;
+	height: 84px;
+	width: 180px;
+}
+
+#start:hover, #stop:hover {
+	box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+#clock {	
+	margin: 15px auto;
+	position: relative;
+	height: 200px;
+	width: 200px;
+}
+#dial, #minutes, #seconds {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+}
